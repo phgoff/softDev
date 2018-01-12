@@ -4,11 +4,11 @@
 ```
 git remote add origin "yourRepo"
 ```
-### การสร้างไฟล์ .git
+### การสร้างโฟลเดอร์ .git 
 ```
 git init
 ```
-### การเพิ่มไฟล์เข้าไปใน Repository  |  สามารถใช้ . เพื่อเป็นการเพิ่มไฟล์ทั้งหมด
+### การเพิ่มไฟล์เข้าไปใน Repository  |  สามารถใช้ . แทนที่ชื่อไฟล์ จะเป็นการเพิ่มไฟล์ทั้งหมด
 ```
 git add README.md
 ```
@@ -16,7 +16,10 @@ git add README.md
 ```
 git commit -m "Your Comment"
 ```
-### การส่งข้อมูลจาก Local ไปยัง Repository | -u คือ จำ parameter origin master เอ่ไว้
+### การส่งข้อมูลจาก Local ไปยัง Repository | -u คือ จำ parameter origin master เอาไว้
 ```
 git push -u origin master
 ```
+### การดึงข้อมูลจาก Repository มายัง Local
+```
+git pull 
