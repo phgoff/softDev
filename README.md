@@ -33,3 +33,7 @@ $ git pull
 ```
 $ git config --global --unset user.name | git config --global --unset user.email
 ```
+### การ undo ไฟล์ 
+```
+$ git checkout test.txt
+```
