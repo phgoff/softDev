@@ -101,7 +101,7 @@ $ git checkout -b yourbranch 	//Create branch and move to new branch
 $ git branch -a 				// Status branch
 $ git branch -d yourbranch 		//Delete branch |Move to master first.
 $ git push -u origin yourbranch	
-* Upload branch to master -- 
+-- Upload branch to master -- 
 $ git checkout master
 $ git merge dev 				// merge dev to master | --no-ff 
 ``` 
