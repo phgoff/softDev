@@ -6,4 +6,4 @@
 * git add file การเพิ่มไฟล์
 * git commit -m "Comment" การเก็บไฟล์
 * git push -u origin master
-* git --config --global user.email|git --config --global user.name
+* git config --global --unset user.name | git config --global --unset user.email
