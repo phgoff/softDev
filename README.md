@@ -25,7 +25,7 @@ $ git commit -m "Comment"
 $ git push -u origin master 
   * ครั้งต่อไปใช้แค่ git push 
 ```
-### การดึงไฟล์เข้ามาที่ local 
+### การตวรจสอบแล้วดึงไฟล์เข้ามาที่ local 
 ```
 $ git pull
 ```
