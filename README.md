@@ -1,9 +1,31 @@
 # Git Commands
-## คำสั่งพื้นฐาน 
-* git clone "repo" ดึงข้อมูลจาก Server มายังเครื่อง 
-* git remote add origin "repo"  เชื่อมต่อ local กับ Server
-* git status ตรวจสอบสถานะ
-* git add file การเพิ่มไฟล์
-* git commit -m "Comment" การเก็บไฟล์
-* git push -u origin master
-* git config --global --unset user.name | git config --global --unset user.email
+## คำสั่งพื้นฐาน
+### ดึงข้อมูลจาก Server มายังเครื่อง  
+```
+$ git clone "repo"
+```
+### เชื่อมต่อ Local กับ git Server
+```
+$ git remote add origin "repo" 
+```
+### การตรวจสอบสถานะ
+```
+$ git status
+```
+### การเพิ่มไฟล์ ถ้าใช้ . จะเพิ่มไฟล์ทั้งหมด จะได้ สถานะ ติดตาม
+```
+$ git add file
+```
+### การเก็บไฟล์ 
+```
+$ git commit -m "Comment"
+```
+### ส่งไปยัง Server 
+```
+$ git push -u origin master 
+  * ครั้งต่อไปใช้แค่ git push 
+```
+### Log out 
+```
+$ git config --global --unset user.name | git config --global --unset user.email
+```
