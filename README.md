@@ -25,6 +25,10 @@ $ git commit -m "Comment"
 $ git push -u origin master 
   * ครั้งต่อไปใช้แค่ git push 
 ```
+### การดึงไฟล์เข้ามาที่ local 
+```
+$ git pull
+```
 ### Log out 
 ```
 $ git config --global --unset user.name | git config --global --unset user.email
