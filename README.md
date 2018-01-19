@@ -48,3 +48,12 @@ $ git reset --soft "HEAD^"
 ```
 $ git log --oneline
 ```
+### Delete file, After commit
+```
+$ git rm test.txt
+```
+* Recovery
+```
+$ git reset HEAD test.txt
+$ git checkout test.txt
+```
