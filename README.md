@@ -1,10 +1,10 @@
-# Git Commands
-## คำสั่งพื้นฐาน
+#Basic Git Commands
+
 ### ดึงข้อมูลจาก Server มายังเครื่อง  
 ```
 $ git clone "repo"
 ```
-### เชื่อมต่อ Local กับ git Server
+### เชื่อมต่อ Local กับ Git Server
 ```
 $ git remote add origin "repo" 
 ```
@@ -12,7 +12,7 @@ $ git remote add origin "repo"
 ```
 $ git status
 ```
-### การเพิ่มไฟล์ ถ้าใช้ . จะเพิ่มไฟล์ทั้งหมด จะได้ สถานะ ติดตาม
+### การเพิ่มไฟล์ ถ้าใช้ . จะเพิ่มไฟล์ทั้งหมด จะได้สถานะ ติดตาม
 ```
 $ git add file
 ```
@@ -30,9 +30,10 @@ $ git pull
 ```
 ### Log out 
 ```
-$ git config --global --unset user.name | git config --global --unset user.email
+$ git config --global --unset user.name
+$ git config --global --unset user.email
 ```
-### การ undo ไฟล์ 
+### File Undo
 ```
 $ git checkout test.txt
 ```
@@ -48,7 +49,7 @@ $ git reset --soft "HEAD^"
 ```
 $ git log --oneline
 ```
-### Delete file, After commit
+### Delete file, After committed
 ```
 $ git rm test.txt
 ```
