@@ -24,7 +24,7 @@ git push -u origin master
 ### การดึงข้อมูลจาก Repository มายัง Local
 ```
 git pull 
-=======
+```
 #Basic Git Commands
 
 ### ดึงข้อมูลจาก Server มายังเครื่อง  
