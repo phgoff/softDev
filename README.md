@@ -58,3 +58,10 @@ $ git rm test.txt
 $ git reset HEAD test.txt
 $ git checkout test.txt
 ```
+### Hide a Update
+```
+$ git add file
+$ git stash    | * before pull
+$ git pull 
+$ git stash pop  #recovery data  and add...
+```

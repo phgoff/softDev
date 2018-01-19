@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 Stash from Git server..
+=======
+Stash\n Loca stash
+>>>>>>> Stashed changes
