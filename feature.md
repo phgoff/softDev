@@ -12,4 +12,5 @@
 * git checkout master 	เปลี่ยนกลับมายัง master 
 * git merge --no-f name	merge ไปยังแล้ว master แบบ no fast forward
 
-![branchdev](https://user-images.githubusercontent.com/22350686/35153749-654bcdc2-fd5a-11e7-9c08-1ffad26364ab.PNG)
+![mergefeatire](https://user-images.githubusercontent.com/22350686/35160645-52b7bc28-fd70-11e7-986f-f9095c743b44.PNG)
+
