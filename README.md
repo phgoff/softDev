@@ -1,4 +1,3 @@
-﻿<<<<<<< HEAD
 # GIT  COMMANDS
 คำสั่งพื้นฐาน การใช้ Git
 ### การเชื่อมต่อ local กับ Repository โดยการใช้ remote
