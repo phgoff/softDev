@@ -22,8 +22,7 @@ $ git commit -m "Comment"
 ```
 ### ส่งไปยัง Server 
 ```
-$ git push -u origin master 
-  * ครั้งต่อไปใช้แค่ git push 
+$ git push -u origin master   | * ครั้งต่อไปใช้แค่ git push 
 ```
 ### การตวรจสอบแล้วดึงไฟล์เข้ามาที่ local 
 ```
@@ -36,4 +35,16 @@ $ git config --global --unset user.name | git config --global --unset user.email
 ### การ undo ไฟล์ 
 ```
 $ git checkout test.txt
+```
+### การ undo ไฟล์  โดยที่ไฟล์นั้น ได้ add ไปแล้ว  > จะได้สถานะ untrack
+```
+$ git reset HEAD test.txt
+```
+### การยกเลิกการ Commit
+```
+$ git reset --soft "HEAD^"  
+```
+### การดูรายละเอียด
+```
+$ git log --oneline
 ```
