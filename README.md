@@ -1,12 +1,12 @@
-﻿# GIT  COMMANDS
+# GIT  COMMANDS
 คำสั่งพื้นฐาน การใช้ Git
+### ขั้นตอนเริ่มต้น การสร้างโฟลเดอร์ .git ใน local ของเรา
+```
+git init
+```
 ### การเชื่อมต่อ local กับ Repository โดยการใช้ remote
 ```
 git remote add origin "yourRepo"
-```
-### การสร้างโฟลเดอร์ .git 
-```
-git init
 ```
 ### การเพิ่มไฟล์เข้าไปใน Repository  |  สามารถใช้ . แทนที่ชื่อไฟล์ จะเป็นการเพิ่มไฟล์ทั้งหมด
 ```
