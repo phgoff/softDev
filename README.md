@@ -54,7 +54,7 @@ $ git push -u origin master   | * ครั้งต่อไปใช้แค�
 ```
 $ git pull
 ```
-### Log out 
+### Log out (linux)
 ```
 $ git config --global --unset user.name
 $ git config --global --unset user.email
