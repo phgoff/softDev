@@ -74,6 +74,8 @@ $ git reset --soft "HEAD^"
 ### การดูรายละเอียด
 ```
 $ git log --oneline
+$ git log --oneline --decorate --graph
+* press q to exit
 ```
 ### Delete file, After committed
 ```
@@ -98,11 +100,14 @@ $ git branch yourbranch 	  	     // Create Branch
 $ git checkour yourbranch		     //Move to branch yourbranch
 $ git checkout -b yourbranch 	  	    //Create branch and move to new branch
 $ git branch -a 			    // Status branch
+
 $ git branch -d yourbranch 		   //Delete branch |Move to master first.
+$ git push origin --delete branch
+
 $ git push -u origin yourbranch	
 -- Upload branch to master -- 
-$ git checkout master 
+$ git checkout master
+$ git fetch  
 $ git merge --no-ff dev 		 // merge dev to master | --no-ff 
 ``` 
-
 
