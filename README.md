@@ -110,4 +110,11 @@ $ git checkout master
 $ git fetch  
 $ git merge --no-ff dev 		 // merge dev to master | --no-ff 
 ``` 
-
+### TAGs
+```
+$ git tag "v1.0.0" 
+$ git push --tags
+$ git checkout v1.0.0     //move back to v1.0.0
+$ git tag -d v1.0.0       // Delete tag
+$ git push origin --delete v1.0.0   //delete with remote
+```
